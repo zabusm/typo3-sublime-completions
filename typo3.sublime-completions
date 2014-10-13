@@ -1,0 +1,18 @@
+{
+    "scope": "source.php - variable.other.php",
+    "completions": [
+        "php",
+        {
+            "trigger": "typo3_debug",
+            "contents": "\\MediateSystems\\MsBase\\Utility\\GeneralUtility::var_dump(${1:var});"
+        },
+        {
+            "trigger": "typo3_old_dump",
+            "contents": "Tx_Extbase_Utility_Debugger::var_dump(${1:var});"
+        },
+        {
+            "trigger": "typo3_dump",
+            "contents": "\\TYPO3\\CMS\\Extbase\\Utility\\DebuggerUtility::var_dump(${1:var});"
+        },
+    ]
+}

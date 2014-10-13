@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+if(\$_SERVER['REMOTE_ADDR'] == '217.29.155.120') {
+	$1
+}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>ms_if</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.php</scope>
+	<description>Condition IP</description>
+</snippet>
